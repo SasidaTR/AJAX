@@ -1,0 +1,2 @@
+$('#email-content').html("<%= j render partial: 'email_details', locals: { email: @email } %>");
+$('#delete-email, #mark-as-unread').prop('disabled', false);
